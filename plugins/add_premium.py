@@ -100,7 +100,7 @@ async def allplan(bot, message):
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
         ]]
     await message.reply_photo(
-        photo="https://telegra.ph/file/71be8b45fd8da04a6531c.jpg",
+        photo="https://telegra.ph/file/a8c4e77d0843cef6b5544.jpg",
         caption="""<blockquote><b>
         <a href='https://graph.org/The-Happy-Hour-12-22-2'>💥 ᴘʀᴇᴍɪᴜᴍ ᴘʀɪᴄᴇ 💥
         
