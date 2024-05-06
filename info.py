@@ -57,11 +57,11 @@ SHORT_MODE = is_enabled((environ.get("SHORT_MODE","False")), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Niko_Roben")
-VERIFY2_URL = environ.get('VERIFY2_URL', "0")
-VERIFY2_API = environ.get('VERIFY2_API', "0")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '0')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://youtube.com/shorts/drCJLujy8R0?si=i2QPmXcoUEACNTT5")
+VERIFY2_URL = environ.get('VERIFY2_URL', "shrinkforearn.in")
+VERIFY2_API = environ.get('VERIFY2_API', "896974bfeae350cf13872c6b1e1e220c1e8d7189")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkforearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '896974bfeae350cf13872c6b1e1e220c1e8d7189')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001966591245').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
