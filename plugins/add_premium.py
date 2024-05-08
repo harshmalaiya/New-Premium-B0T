@@ -94,7 +94,7 @@ async def allplans(bot, message):
 @Client.on_message(filters.private & filters.command("premium"))
 async def allplan(bot, message):
     btn = [[
-            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+            InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/HMmediaacontact_bot")
         ],[
             InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
             InlineKeyboardButton('cʟᴏꜱᴇ', callback_data='close_data')
@@ -104,14 +104,14 @@ async def allplan(bot, message):
         caption="""<blockquote><b>
         <a href='https://graph.org/The-Happy-Hour-12-22-2'>💥 ᴘʀᴇᴍɪᴜᴍ ᴘʀɪᴄᴇ 💥
         
-1 Wᴇᴇᴋ = [50 + 0] Rs
-1 Mᴏɴᴛʜ = [50 + 10] Rs
-2 Mᴏɴᴛʜ = [50 + 30] Rs
-3 Mᴏɴᴛʜ = [50 + 50] Rs
-6 Mᴏɴᴛʜ = [50 + 100] Rs
-1 Yᴇᴀʀ = [50 + 150] Rs
+1 Wᴇᴇᴋ = 10 Rs
+1 Mᴏɴᴛʜ = 20 Rs
+2 Mᴏɴᴛʜ = 30 Rs
+3 Mᴏɴᴛʜ = 40 Rs
+6 Mᴏɴᴛʜ = 50 Rs
+1 Yᴇᴀʀ = 100 Rs
 
-⚡ᴄʜᴀᴄᴋ ᴘʀᴇᴍɪᴜᴍ ꜰᴜᴛᴜʀᴇꜱ
+⚡ᴄʜᴄᴇᴋ ᴘʀᴇᴍɪᴜᴍ ꜰᴜᴛᴜʀᴇꜱ
 ㅤㅤㅤㅤㅤ</a></b></blockquote>""",
         reply_markup=InlineKeyboardMarkup(btn)
     )
